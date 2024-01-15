@@ -42,3 +42,6 @@
     ]
   },
   "devDependencies": {
+    "web-vitals": "^2.1.4"
+  }
+}

@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* tailwind.css or your CSS file */
+
 .gradient-pink-orange {
     background-image: linear-gradient(to right, rgba(255, 130, 61, 1), rgba(248, 75, 126, 1));
 }

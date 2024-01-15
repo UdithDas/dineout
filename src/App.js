@@ -8,20 +8,13 @@ import Analytics from './pages/Analytics.jsx';
 import Comment from './pages/Comment.jsx';
 import Product from './pages/Product.jsx';
 import ProductList from './pages/ProductList.jsx';
-import Body from './pages/Body.jsx';
-import Header from './pages/Header.jsx';
+
 
 
 
 const App = () => {
   return (
-    <div className="w-full min-h-screen justify-center flex items-center bg-[url('https://www.baronmiedzyzdroje.pl/wp-content/uploads/2019/04/background-1.png')] bg-no-repeat bg-cover">
-    <div className='bg-white w-full h-screen md:w-[35vw] md:h-[60vh] '>
-        <Header/>
-        <Body/>
-        
-        
-        </div>
+    
     <BrowserRouter>
       <Sidebar>
         <Routes>
@@ -35,8 +28,8 @@ const App = () => {
         </Routes>
       </Sidebar>
     </BrowserRouter>
-    </div>
+    
   );
 };
 
-export de
+export default App;

@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 
 const Body = () => {
     const user = {
-        // change this
+       
         username: 'Dine',
         password: 'out1234',
     };
@@ -78,7 +78,7 @@ const navigate = useNavigate();
         if (isUsernameValid && isPasswordValid) {
             if (username === user.username && password === user.password) {
                 toast.success('Logging Successful');
-                navigate('/Dashboard');
+                navigate('/');
                 setInputValue({
                     username: '',
                     password: '',
